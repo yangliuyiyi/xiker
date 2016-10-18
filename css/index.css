@@ -1,0 +1,379 @@
+body{
+	background:#fff;
+	font-size:12px;
+	line-height: 18px;
+	color:#595959;
+	margin: 0;
+}
+ul, li{
+	padding:0;
+	list-style: none;
+	margin:0;
+}
+a{
+	color:#595959;
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 90px;
+	background-image: url(../images/1.jpg) ;
+	background-repeat:no-repeat;	
+	background-position:center;
+	position:relative;
+}
+.mainContent{
+	width: 960px;
+	margin: 0 auto;
+	position:relative;
+}
+.logo{
+	width: 960px;
+	height: 90px;
+	margin: 0 auto;
+	background: url(../images/1.jpg) no-repeat center top;
+}
+.logo a{
+	width: 550px;
+	height: 80px;
+	float: left;
+}
+.headLink{
+	position: absolute;
+	right: 10px;
+	top:0;
+	width: 300px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+}
+.headLink a{
+	padding: 0 4px;
+}
+.headLink a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#navmap{
+	width: 100%;
+	height: 40px;
+	border-bottom: 5px;
+	background:#fff url(../images/3.png) repeat-x center -1px;
+}
+#navmap ul{
+	width: 960px;
+	height: 40px;
+}
+#navmap ul li.navLeft{
+	float: left;
+	width: 2px;
+	height: 40px;
+	background:url(../images/nav_bg.png) no-repeat 0 -46px;
+
+}
+#navmap ul li{
+	width: 104px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	background:url(../images/nav_bg.png) repeat-x 0 0;
+}
+#navmap ul li a{
+	width: 104px;
+	height: 36px;
+	line-height: 36px;
+	display: block;
+	color: #fae98e;
+	background:url(../images/nav_bg.png) no-repeat -2px -46px;
+}
+#navmap ul li a:hover{
+	background: url(../images/nav_bg.png) no-repeat -2px -95px;
+}
+#navmap ul li a.mark{
+	background: url(../images/nav_bg.png) no-repeat -2px -143px;
+}
+#container{
+	width: 960px;
+	margin:0 auto;
+	position: relative;
+}
+.top{
+	width: 960px;
+	overflow: hidden;
+}
+.banner{
+	position: relative;
+	width: 670px;
+	float: left;
+}
+.banner .imgbox{
+	width: 670px;
+	height: 240px;
+}
+.banner .imgbox a{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner .btn{
+	width: auto;
+	height: 14px;
+	position: absolute;
+	bottom:2px;
+	right:2px; 
+	text-align: center;
+	line-height: 14px;
+	font-size: 12px;
+}
+.banner .btn div{
+	float: left;
+	height: 14px;
+	width: 14px;
+	margin-left: 2px;
+	color:#fff;
+	background: rgba(0,0,0,0.5);
+}
+.banner .btn .hot{
+	background: rgba(211,101,29,0.7);
+	width: 23px;
+}
+.news{
+	width: 280px;
+	float: right;
+}
+.news .newsBox{
+	margin-bottom: 10px;
+}
+.newsBox .title{
+	width: 280px;
+	height: 32px;
+	background:url(../images/tu1.png) -320px -90px;
+	line-height: 32px;
+}
+.newsBox .titleLeft{
+	float: left;
+	font-size:14px;
+	text-indent: 35px;
+	font-weight: bold;
+}
+.newsBox .titleLeft a:hover{
+	text-decoration: underline;
+}
+.newsBox .titleRight{
+	float: right;
+}
+.newsBox .titleRight a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.newsBox .content{
+	height: 192px;
+	border:1px solid #EECB9C;
+	border-top:none;
+	padding:11px 15px 4px 15px;
+	background: #FEFDF9;
+}
+.newsList li{
+	padding-left: 12px;
+	line-height: 24px;
+	background:url(../images/arrow.gif) no-repeat 5px 11px
+}
+.newsList li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.introduce{
+	width: 960px;
+	margin:0 auto;
+}
+.introduce .title{
+	height: 44px;
+	padding-left: 54px;
+
+	background: url(../images/tit_bg.jpg) 0 0;
+}
+.introduce .titleLeft{
+	height: 44px;
+	width: 74px;
+	background:url(../images/tit_bg.jpg) 0 -48px;
+	float: left;
+}
+.introduce .titleLeft span{
+	display:none;
+}
+.introduce .titleRight{
+	margin:15px 20px 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+}
+.introduce .titleRight a:hover{
+	text-decoration: underline;
+}
+.introduce .content{
+	width: 958px;
+	border:1px solid #EECB9C;
+	overflow: hidden;
+}
+.introduce .contentLeft{
+	width: 633px;
+	padding: 10px 10px 10px 25px;
+	float: left;
+	line-height: 24px;
+}
+.introduce .contentLeft .company{
+	float: left;
+	margin:0 12px 0 0;
+	width: 214px;
+	height: 156px;
+	border: 2px solid #dedede;
+}
+.introduce .contentLeft a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.introduce .contentRight{
+	width: 280px;
+	height: 260px;
+	float: right;
+	background: url(../images/2.jpg) no-repeat left top;  
+}
+.introduce .contentRight .tit{
+	width: 248px;
+	height: 27px;
+	padding:9px 0 0 31px;
+	font-size: 14px;
+	font-weight: bold;;
+	background: url(../images/tu1.png) -320px -238px;
+}
+.introduce .contentRight .tit a:hover{
+	text-decoration: underline;;
+}
+.introduce .newsList{
+	width: 240px;
+	margin-top: 10px;
+	padding-left: 15px;
+
+}
+.introduce .newsList li{
+	line-height: 25px;
+}
+.books{
+	width: 960px;
+	height: 268px;
+	background: url(../images/rijian_bg.jpg) no-repeat;
+	margin-bottom: 10px;
+}
+.books .title{
+	padding: 24px 0 0 70px;
+	font-family: ºÚÌå;
+	font-size: 20px;
+	line-height: 24px;
+	color:#333;
+	font-weight: bold;;
+}
+.contentInner{
+	width: 924px;
+	margin: 9px auto 0;
+	overflow: hidden;
+}
+.contentInner li{
+	text-align: center;
+	width: 154px;
+	float: left;
+
+}
+.contentInner li a{
+	color: #333;
+	display: block;
+}
+.contentInner img{
+	width: 120px;
+	height: 170px;
+	border: 1px solid #CBCBCB;
+	margin:0 auto 4px;
+	display: block;
+}
+.contentInner li span{
+	line-height: 22px;
+
+}
+.contentInner li span a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.cooperation{
+	width: 960px;
+	margin: 0 auto;
+	background: #F7F7F7;
+/*	overflow: hidden;
+*/
+}
+.cooperation .cotitle{
+	width: 920px;
+	height: 33px;
+	padding: 0 20px 0 18px;
+	border: 1px solid #CDCDCD;
+	font-size: 0;
+	font-weight: bold;
+	line-height: 33px;
+	color: #333;
+	background: #F7F7F7 url(../images/mrt_03.png) no-repeat 18px center;
+}
+.cooperation .colink{
+	width: 920px;
+	padding: 14px 19px 13px;
+	border: 1px solid #CDCDCD;
+	border-top: 0;
+	line-height: 25px;
+	
+}
+.colink span{
+
+	color: #D5D5D5;
+}
+.colink a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#footer{
+
+width: 960px;
+margin: 10px auto 0;
+border-top: 1px solid #ccc;
+padding-bottom: 15px;
+}
+#footer a{
+	padding: 0 3px;
+	color: #999;
+}
+.footerLink{
+	text-align: center;
+	width: 100%;
+	height: 24px;
+	padding-top: 10px;
+
+}
+
+#footer a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.footerLink span{
+	color: #999;
+
+}
+.footerContent{
+	text-align: center;
+}
+.tongji{
+	width: 100%;
+}
+#footer .tongji a{
+	padding: 0 3px;
+}
+#footer .tongji a img{
+	border: none;
+}
+

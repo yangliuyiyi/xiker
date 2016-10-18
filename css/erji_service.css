@@ -1,0 +1,234 @@
+body{
+	background:#fff;
+	font-size:12px;
+	line-height: 18px;
+	color:#595959;
+	margin: 0;
+}
+ul, li,p{
+	padding:0;
+	list-style: none;
+	margin:0;
+}
+a{
+	color:#595959;
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 90px;
+	background-image: url(../images/1.jpg) ;
+	background-repeat:no-repeat;	
+	background-position:center;
+	position:relative;
+}
+.mainContent{
+	width: 960px;
+	margin: 0 auto;
+	position:relative;
+}
+.logo{
+	width: 960px;
+	height: 90px;
+	margin: 0 auto;
+	background: url(../images/1.jpg) no-repeat center top;
+}
+.logo a{
+	width: 550px;
+	height: 80px;
+	float: left;
+}
+.headLink{
+	position: absolute;
+	right: 10px;
+	top:0;
+	width: 300px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+}
+.headLink a{
+	padding: 0 4px;
+}
+.headLink a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#navmap{
+	width: 100%;
+	height: 40px;
+	border-bottom: 5px;
+	background:#fff url(../images/3.png) repeat-x center -1px;
+}
+#navmap ul{
+	width: 960px;
+	height: 40px;
+}
+#navmap ul li.navLeft{
+	float: left;
+	width: 2px;
+	height: 40px;
+	background:url(../images/nav_bg.png) no-repeat 0 -46px;
+
+}
+#navmap ul li{
+	width: 104px;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	background:url(../images/nav_bg.png) repeat-x 0 0;
+}
+#navmap ul li a{
+	width: 104px;
+	height: 36px;
+	line-height: 36px;
+	display: block;
+	color: #fae98e;
+	background:url(../images/nav_bg.png) no-repeat -2px -46px;
+}
+#navmap ul li a.mark,#navmap ul li a.mark:hover{
+	background: url(../images/nav_bg.png) no-repeat -2px -143px;
+}
+#navmap ul li a:hover{
+	background: url(../images/nav_bg.png) no-repeat -2px -95px;
+}
+#contentBox{
+	width: 960px;
+	margin:0 auto;
+	background: url(../images/mainBg.gif) repeat-y 0 0;
+	overflow: hidden;
+
+}
+#contentBox .contentLeft{
+	width: 219px;
+	float: left;
+	padding:0 1px;
+	border-bottom: 1px solid #edc899;
+
+}
+#contentBox .contentLeft .title{
+	width: 100%;
+	height: 30px;
+	color: #5e0101;
+	background: #eab774 url(../images/tu1.png) no-repeat -216px -521px;
+	text-indent: 18px;
+	font-weight: 700;
+	line-height: 34px;
+}
+#contentBox .contentLeft .list li a:hover{
+	color: #a00909;
+	background: url(../images/tu1.png) repeat-x -215px -583px;
+}
+#contentBox .contentLeft .list{
+	width: 100%;
+	margin-top: 2px;
+	border-top: 1px solid #edc899;
+}
+#contentBox .contentLeft .list li{
+	width: 100%;
+	height: 29px;
+	font-size: 13px;
+	line-height: 33px;
+
+	/*border-bottom: 1px solid #edc899;*/
+}
+#contentBox .contentLeft .list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 40px;
+	background: url(../images/tu1.png) no-repeat -215px -554px;
+}
+#contentBox .contentLeft .servince{
+	width: 100%;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+#contentBox .contentLeft .servinceImg{
+	display: block;
+	width: 204px;
+	height: 64px;
+	margin-left: 9px;
+	background: url(../images/serverPic.jpg) no-repeat 0 0;
+}
+#contentBox .contentLeft .servinceList{
+	margin-top: 8px;
+}
+#contentBox .contentLeft .servinceList li{
+	width: 100%;
+	line-height: 24px;
+	
+	text-indent: 18px;
+}
+#contentBox .contentLeft .servinceList a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#contentBox .contentLeft .servinceList li.fw{
+	margin-top: 6px;
+}
+#contentBox .contentRight{
+	width: 730px;
+	height: 560px;
+	float: right;
+	border-bottom: 1px solid #edc899;
+} 
+#contentBox .contentRight .banner{
+	width: 724px;
+	border: 1px solid #edc899;
+	height: 150px;
+	margin-bottom: 6px;
+	padding: 2px;
+}
+#contentBox .contentRight .fd{
+	width: 100%;
+}
+#contentBox .contentRight .fdTitle{
+	height: 32px;
+	color: #a00909;
+	font-weight: 700;
+	line-height: 34px;
+	text-indent: 30px;
+	background: #eab774 url(../images/tu1.png) no-repeat 0 -702px;
+}
+#contentBox .contentRight .fdList{
+	padding: 10px 25px;
+	padding-bottom: 6px;
+}
+#contentBox .contentRight .fdList p{
+	font-size: 12px;
+	color: #333;
+
+}
+#footer{
+
+width: 960px;
+margin: 10px auto 0;
+border-top: 1px solid #ccc;
+padding-bottom: 15px;
+}
+#footer a{
+	padding: 0 3px;
+	color: #999;
+}
+.footerLink{
+	text-align: center;
+	width: 100%;
+	height: 24px;
+	padding-top: 10px;
+
+}
+
+#footer a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.footerLink span{
+	color: #999;
+
+}
+.footerContent{
+	text-align: center;
+}
+
